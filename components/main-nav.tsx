@@ -54,7 +54,7 @@ export default function Navbar({}: MainNavProps) {
             className="flex items-center space-x-2 md:hidden"
             onClick={() => setShowMobileMenu(!showMobileMenu)}
           >
-            {showMobileMenu ? <IoClose /> : <RiMenu2Fill />}
+            {showMobileMenu ? <IoClose size={24}/> : <RiMenu2Fill size={24}/>}
             <span className="sr-only">Menu</span>
           </button>
           {showMobileMenu && items && <MobileNav items={items} />}

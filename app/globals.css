@@ -1,3 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: Trip Sans;
+    src: url(../font/tripsans/TripSans-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Trip Sans;
+    src: url(../font/tripsans/TripSans-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Trip Sans;
+    src: url(../font/tripsans/TripSans-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Trip Sans;
+    src: url(../font/tripsans/TripSans-Ultra.ttf);
+    font-weight: 900;
+}
+
+.font-trip-sans {
+    font-family: Trip Sans;
+}
